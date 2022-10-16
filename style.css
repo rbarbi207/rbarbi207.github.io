@@ -1,0 +1,47 @@
+body {
+    margin-right: 10rem; margin-left: 10rem;}
+
+    ul {
+        list-style: square;
+
+    }
+
+    #light-gray {
+        color: #674B5A;
+    }
+
+    #lighter-gray {
+        color: #927889;
+    }
+
+    .winchesters-background {
+        background-color:#C9BBC0;
+        font-family:Noto; font-size: 18pt;
+    }
+
+    .background-img-color {
+        background-color:#E9CBB3; 
+        background-image: url(https://www.pngmart.com/files/13/Supernatural-Logo-PNG-Transparent-Image.png); background-repeat:no-repeat; background-position-x: right; background-size: 6cm; font-size:2rem; font-family:constantia;
+    }
+
+    #light-brown {
+        color: #8F6A34
+
+    }
+
+    #red {
+        color: #BD4F4C;
+        font-family: papyrus
+    }
+
+    #lighter-brown {
+        color: #CD7D6D
+    }
+
+    #red-underline {
+        color: #BD4F4C;
+        font-family: papyrus;
+        text-decoration: underline;
+
+    }
+ 
