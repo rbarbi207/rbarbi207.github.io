@@ -1,66 +1,76 @@
 body {
-    margin-right: 10rem; margin-left: 10rem;}
+    margin-right: 10rem; margin-left: 10rem;
+}
 
-    ul {
-        list-style: square;
+ul {
+    list-style: square;
 
-    }
+}
 
-    #light-gray {
-        color: #674B5A;
-    }
+#light-gray {
+    color: #674B5A;
+}
 
-    #lighter-gray {
-        color: #927889;
-    }
+#lighter-gray {
+    color: #927889;
+}
 
-    .winchesters-background {
-        background-color:#C9BBC0;
-        font-family:Noto; font-size: 18pt;
-    }
+.winchesters-background {
+    background-color:#C9BBC0;
+    font-family:Noto; font-size: 18pt;
+}
 
-    .background-img-color {
-        background-color:#E9CBB3; 
-        background-image: url(https://www.pngmart.com/files/13/Supernatural-Logo-PNG-Transparent-Image.png); background-repeat:no-repeat; background-position-x: right; background-size: 6cm; font-size:2rem; font-family:constantia;
-    }
+.background-img-color {
+    background-color: darkgrey; 
+    background-image: url(https://www.pngmart.com/files/13/Supernatural-Logo-PNG-Transparent-Image.png); background-position-x: right; background-size: 10cm; font-size:2rem; font-family:constantia;
+}
 
-    #light-brown {
-        color: #8F6A34
+#light-brown {
+    color: #8F6A34
+}
 
-    }
+#red {
+    color: #BD4F4C;
+    font-family: papyrus
+}
 
-    #red {
-        color: #BD4F4C;
-        font-family: papyrus
-    }
+#lighter-brown {
+    color: #CD7D6D
+}
 
-    #lighter-brown {
-        color: #CD7D6D
-    }
+#red-underline {
+    color: #BD4F4C;
+    font-family: papyrus;
+    text-decoration: underline;
+}
 
-    #red-underline {
-        color: #BD4F4C;
-        font-family: papyrus;
-        text-decoration: underline;
+td, th {
+    border: 1px solid black; 
+    padding: 4px;
+}
+    
+table {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+    background-color: antiquewhite
+}
 
-    }
+#background-color {
+    background-color: bisque
+}
 
-    td, th {
-        border: 1px solid black; 
-        padding: 4px;
- 
-    }
-    table {
-        border-collapse: collapse;
-        text-align: center;
-        padding: 4px;
-        background-color: antiquewhite
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E9CBB3;
+}
 
-    }
-
-    #background-color {
-        background-color: bisque
-    }
-
+img {
+    margin: 30px;
+    float: right;
+    width: 30%;
+}
     
  
