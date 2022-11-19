@@ -38,10 +38,6 @@ h1 {
     font-size:4rem;
 }
 
-ul {
-    list-style: square;
-}
-
 .background-img-color { 
     background-image:url(jack-mckelvie-darkforestrender-01.jpg); 
     background-repeat: no-repeat;
@@ -109,12 +105,6 @@ img {
     width: 30%;
 }
 
- 
-li a:hover {
-    color:#99D492;
-    transition: .5s;
-}
-
 p {
     background-color: #CCF1CC75;
     padding: 20px;
@@ -130,12 +120,7 @@ p:active {
 }
 
 .winchesters-background {
-    background-color:#C9BBC0;
     font-family:Noto; font-size: 18pt;
-}
-
-#light-gray {
-    color: #674B5A;
 }
 
 .link {
