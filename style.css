@@ -2,7 +2,7 @@ body {
     font-family:constantia;
     font-size: 25px;
     text-align: justify;
-    width: 100%;
+    width: 99%;
 }
 
 @media only screen and (max-width: 600px) {
