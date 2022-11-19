@@ -1,45 +1,60 @@
 body {
-    margin-right: 10rem; margin-left: 10rem;
+    margin-right: 10rem; 
+    margin-left: 10rem;
+    font-family:constantia;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#menupont {
+    padding-left: 84px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    text-align:center;
+    display:inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14pt;
+    display:inline-block;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size:4rem;
 }
 
 ul {
     list-style: square;
-
 }
 
-#light-gray {
-    color: #674B5A;
+.background-img-color { 
+    background-image:url(jack-mckelvie-darkforestrender-01.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    color: white;
 }
 
-#lighter-gray {
-    color: #927889;
-}
-
-.winchesters-background {
-    background-color:#C9BBC0;
-    font-family:Noto; font-size: 18pt;
-}
-
-.background-img-color {
-    background-color: darkgrey; 
-    background-image: url(https://www.pngmart.com/files/13/Supernatural-Logo-PNG-Transparent-Image.png); background-position-x: right; background-size: 10cm; font-size:2rem; font-family:constantia;
-}
-
-#light-brown {
-    color: #8F6A34
-}
-
-#red {
-    color: #BD4F4C;
+#font {
     font-family: papyrus
 }
 
-#lighter-brown {
-    color: #CD7D6D
-}
-
-#red-underline {
-    color: #BD4F4C;
+#font-underline {
     font-family: papyrus;
     text-decoration: underline;
 }
@@ -47,24 +62,45 @@ ul {
 td, th {
     border: 1px solid black; 
     padding: 4px;
+    background: none !important; 
+}
+th{
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
+
+tr:nth-child(4n+1), tr:nth-child(4n+2) {
+    background: #CCF1CC35;
+}
+
+tr:hover{
+    background-color: #00000020;
+    transition: 0.3s;
+}
+
+tr:hover td:nth-child(1) a{
+    color: #74C67A;
+    transition: 0.3s;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
 }
     
 table {
     border-collapse: collapse;
     text-align: center;
     padding: 4px;
-    background-color: antiquewhite
+    width: 100%;
+    background-color: #CCF1CC75;
 }
 
-#background-color {
-    background-color: bisque
-}
 
 .container {
-    width: 960px;
+    width: 50rem;
     margin: 0 auto;
     padding: 20px;
-    background-color: #E9CBB3;
 }
 
 img {
@@ -72,5 +108,68 @@ img {
     float: right;
     width: 30%;
 }
-    
+
  
+li a:hover {
+    color:#99D492;
+    transition: .5s;
+}
+
+p {
+    background-color: #CCF1CC75;
+    padding: 20px;
+}
+
+p:hover {
+    transition: .5s;
+    transform: scale(105%)
+}
+
+p:active {
+    transform: scale(100%)
+}
+
+.winchesters-background {
+    background-color:#C9BBC0;
+    font-family:Noto; font-size: 18pt;
+}
+
+#light-gray {
+    color: #674B5A;
+}
+
+.link {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+  
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.menu{
+    width: 100%;
+    background-color: #000000c0;
+    border-radius: 1.4rem;
+    position: sticky;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    z-index: 10000;
+}
+
